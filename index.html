@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <!-- bootstap -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" -->
+    <!-- /> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto&family=Ubuntu+Mono:ital@1&display=swap" rel="stylesheet"> -->
+    <title>Shopping Store Ecommerce website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img
+              src="./assets/images/s 2 logo.jpg"
+              alt="logo"
+              height="90px"
+              width="125px"
+            />
+          </div>
+          <nav>
+            <ul id="menuItems">
+              <li><a href="#">Home</a></li>
+              <li><a  href="Products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a  href="contact.html">Contact</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <img src="./assets/images/cart.png" width="30px" height="30px" alt="">
+          <img src="./assets/images/menu.png" class="menu-icon" onclick="menuToggle()" alt="">
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give Your Workout<br />
+              A New Style!
+            </h1>
+            <p>
+              Success isn't always about greatness.It's about consistency.
+              Consistant <br />
+              work gain success.Greatness will come.
+            </p>
+            <a href="Products.html" class="btn">Explore Now &#10140;</a>
+          </div>
+
+          <div class="col-2">
+            <img src="./assets/images/image1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------featured category---------- -->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="./assets/images/category-1.jpg"/>
+            
+          </div>
+          <div class="col-3">
+            <img src="./assets/images/category-2.jpg"/>
+          </div>
+          <div class="col-3">
+            <img src="./assets/images/category-3.jpg"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------featured category-comp-- -->
+
+    <!-- -----------featured products---------- -->
+    <div class="small-container">
+      <h2 class="tittle">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="./assets/images/product-1.jpg" alt="" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-2.jpg" alt="" />
+          <h4>Black Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$60.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-3.jpg" alt="" />
+          <h4>Grey Trouser</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-4.jpg" alt="" />
+          <h4>Navy Blue T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$45.00</p>
+        </div>
+      </div>
+      <!--  -->
+
+      <h2 class="tittle">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="./assets/images/product-5.jpg" alt="" />
+          <h4>Grey joggers</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>$80.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-6.jpg" alt="" />
+          <h4>Black T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$60.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-7.jpg" alt="" />
+          <h4>Socks Variety</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+          </div>
+          <p>$30.00Each</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-8.jpg" alt="" />
+          <h4>Gents Watch M-9</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$90.00</p>
+        </div>
+
+        <!-- -------------------next------------ -->
+        <div class="col-4">
+          <img src="./assets/images/product-9.jpg" alt="" />
+          <h4>Gents Watch M-7</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$90.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-10.jpg" alt="" />
+          <h4>Gents Black Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$90.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-11.jpg" alt="" />
+          <h4>Gents Grey Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$90.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./assets/images/product-12.jpg" alt="" />
+          <h4>Black Jeans</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-regular fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$90.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------offer------------- -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="./assets/images/exclusive.png" alt="" />
+          </div>
+          <div class="col-2">
+            <p>Excusively Available on Redstore</p>
+            <h1>Smart band 4</h1>
+            <small
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+              veritatis nobis commodi ea illo voluptate error provident? Ipsum,
+              possimus ipsam, molestias dolorum harum itaque dicta unde earum
+              non, assumenda dolorem!</small
+            >
+            <a href="contact.html" class="btn">Buy Now &#10140;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------testimonial------------ -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+              quam debitis ut quasi doloremque consequuntur ducimus inventore
+              ea, eius neque quis deserunt numquam porro non veniam corporis id
+              qui! Quia?
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-regular fa-star"></i>
+            </div>
+            <img src="./assets/images/user-1.png" alt="" />
+            <h3>Hina</h3>
+          </div>
+          <!-- pic2 -->
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+              quam debitis ut quasi doloremque consequuntur ducimus inventore
+              ea, eius neque quis deserunt numquam porro non veniam corporis id
+              qui! Quia?
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-regular fa-star"></i>
+            </div>
+            <img src="./assets/images/user-2.png" alt="" />
+            <h3>Herry</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+              quam debitis ut quasi doloremque consequuntur ducimus inventore
+              ea, eius neque quis deserunt numquam porro non veniam corporis id
+              qui! Quia?
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-regular fa-star"></i>
+            </div>
+            <img src="./assets/images/user-3.png" alt="" />
+            <h3>Safia Bano</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------brands------------ -->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="./assets/images/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-oppo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-coca-cola.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-paypal.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-philips.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------footer-------------  -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for anaoid and ios mobile phone</p>
+            <div class="app-logo">
+              <img src="./assets/images/play-store.png" alt="">
+              <img src="./assets/images/app-store.png " alt="">
+
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./assets/images/logo-white.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+              quibusdam asperiores explicabo. Maiores vero blanditiis similique
+              atque unde nostrum cum asperiores obcaecati, quidem officia quod.
+              Sed consequatur explicabo doloremque volupt anaoid and ios mobile
+              phone
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+
+            </ul>
+          </div>
+          <!-- next 2 -->
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+
+
+            </ul>
+          </div>
+
+        </div>
+        <hr>
+<p class="copy-right">Copy right 2023 Made by Safia  &#128512;</p>
+
+
+      </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
